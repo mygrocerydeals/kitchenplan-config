@@ -4,6 +4,7 @@ recipes:
     mac_os_x:
         - homebrewalt::default
         - nodejs::default
+        - osxdefaults::disable_natural_scrolling
         - osxdefaults::disable_auto-correct
         - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
         - osxdefaults::finder_small_sidebar_icon_size

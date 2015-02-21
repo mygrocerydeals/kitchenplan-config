@@ -44,12 +44,12 @@ attributes:
             - siege
             - watch
             - rsync
-            - iterm2
         cask_apps:
             - imageoptim
             - imagealpha
-            - sequel-pro
             - sourcetree
+            - iterm2
+            - atom
     nodejs:
         apps:
             - uglify-js
