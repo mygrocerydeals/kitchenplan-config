@@ -1,0 +1,6 @@
+attributes:
+    homebrewalt:
+        apps:
+          - zsh
+          - zsh-completions
+          - zsh-syntax-highlighting
