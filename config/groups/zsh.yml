@@ -1,3 +1,6 @@
+recipes:
+    global:
+        - applications::ohmyzsh
 attributes:
     homebrewalt:
         apps:
