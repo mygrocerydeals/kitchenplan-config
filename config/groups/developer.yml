@@ -152,5 +152,5 @@ attributes:
             draw_white_space: selection
             rulers: 
                 - 80
-                -120
+                - 120
             tab_size: 2
