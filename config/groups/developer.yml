@@ -135,3 +135,11 @@ attributes:
             name: Theme - Flatland
             source: git://github.com/thinkpixellab/flatland.git
             branch: master
+        -
+            name: Haml
+            source: https://github.com/phuibonhoa/handcrafted-haml-textmate-bundle.git
+            branch: master
+        -
+            name: CoffeeScript
+            source: https://github.com/aponxi/sublime-better-coffeescript.git
+            branch: master
