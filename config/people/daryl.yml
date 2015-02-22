@@ -1,4 +1,5 @@
 groups:
+    - bash
     - zsh
     - developer
     - java
