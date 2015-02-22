@@ -143,3 +143,14 @@ attributes:
             name: CoffeeScript
             source: https://github.com/aponxi/sublime-better-coffeescript.git
             branch: master
+        -
+            name: DashDoc
+            source: https://github.com/farcaller/DashDoc.git
+            branch: master
+    sublime_text:
+      preferences:
+        tab_size: 2
+        draw_white_space: selection
+        rulers:
+          - 80
+          - 120
