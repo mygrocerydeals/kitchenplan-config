@@ -102,6 +102,11 @@ attributes:
         - kstrano
         - deliver
         - crafter
+    atom_packages:
+      - name: language-gradle
+      - name: language-groovy
+      - name: language-haml
+      - name: uuidgen
     sublime_text_packages:
         -
             name: SideBarEnhancements
@@ -150,7 +155,7 @@ attributes:
     sublime_text:
         preferences:
             draw_white_space: selection
-            rulers: 
+            rulers:
                 - 80
                 - 120
             tab_size: 2
