@@ -6,6 +6,7 @@ recipes:
         - dotfiles::vim
         - dotfiles::workspace
     mac_os_x:
+        - applications::iterm2
         - applications::sublime_text_3
         - applications::atom
         - applications::gnu-tar
