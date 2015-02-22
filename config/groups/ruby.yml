@@ -1,0 +1,7 @@
+recipes:
+    global:
+        - rvm::user_install
+attributes:
+    rvm:
+      installs:
+        daryl: true

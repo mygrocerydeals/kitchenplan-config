@@ -1,6 +1,7 @@
 recipes:
     global:
         - applications::create_var_chef_cache
+        - dotfiles::sshconfig
     mac_os_x:
         - homebrewalt::default
         - nodejs::default
@@ -19,3 +20,10 @@ attributes:
         cask_apps:
             - google-chrome
             - java
+            - 1password
+            - dropbox
+            - evernote
+            - vlc
+            - alfred
+            - parallels-desktop
+            - skype
