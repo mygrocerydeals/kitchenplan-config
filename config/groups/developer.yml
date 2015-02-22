@@ -147,10 +147,10 @@ attributes:
             name: DashDoc
             source: https://github.com/farcaller/DashDoc.git
             branch: master
-  sublime_text:
-    preferences:
-      tab_size: 2
-      draw_white_space: selection
-      rulers:
-        - 80
-        - 120
+    sublime_text:
+        preferences:
+            draw_white_space: selection
+            rulers: 
+                - 80
+                -120
+            tab_size: 2
