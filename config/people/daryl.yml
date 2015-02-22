@@ -3,7 +3,6 @@ groups:
     - developer
     - java
     - chef
-    - ruby
 recipes:
     mac_os_x:
         - applications::launchrocket
