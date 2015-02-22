@@ -1,6 +1,3 @@
-recipes:
-    global:
-        - oh_my_zsh
 attributes:
     homebrewalt:
         apps:
