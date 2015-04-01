@@ -5,3 +5,4 @@ attributes:
     rvm:
       installs:
         daryl: true
+        kfang: true
