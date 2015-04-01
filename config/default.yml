@@ -39,5 +39,5 @@ attributes:
             - alfred
             - parallels-desktop
             - skype
-osxdefaults:
-  loginmessage: Property of MyGroceryDeals. If found, please call +1 (613) 224-2525.
+    osxdefaults:
+      loginmessage: Property of MyGroceryDeals. If found, please call +1 (613) 224-2525.
