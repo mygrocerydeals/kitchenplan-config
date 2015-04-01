@@ -34,6 +34,9 @@ attributes:
                 - kfang
             passwordless: false
             include_sudoers_d: true
+    homebrewalt:
+        cask_apps:
+            - eclipse-java
     rvm:
       installs:
         kfang:
