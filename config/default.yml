@@ -16,6 +16,17 @@ recipes:
         - osxdefaults::disable_resume_system-wide
         - osxdefaults::save_screenshots_in_png_format
         - osxdefaults::save_screenshots_to_the_desktop
+        - osxdefaults::turn_off_keyboard_illumination_when_computer_is_not_used_for_5_minutes
+        - osxdefaults::finder_show_all_files
+        - osxdefaults::finder_show_file_extensions
+        - osxdefaults::finder_show_path_bar
+        - osxdefaults::finder_show_status_bar
+        - osxdefaults::make_safari_search_banners_default_to_contains_instead_of_starts_with
+        - osxdefaults::dock_minimize_scale_effect
+        - osxdefaults::check_for_software_updates_daily
+        - osxdefaults::dock_set_magnification_on
+        - osxdefaults::expand_print_panel_by_default
+        - osxdefaults::expand_save_panel_by_default
 attributes:
     homebrewalt:
         cask_apps:
