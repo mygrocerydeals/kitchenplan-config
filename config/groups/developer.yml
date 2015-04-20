@@ -137,6 +137,7 @@ attributes:
             name: DashDoc
             source: https://github.com/farcaller/DashDoc.git
             branch: master
+    atom_packages:
     sublime_text:
         preferences:
             draw_white_space: selection
