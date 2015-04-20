@@ -58,28 +58,16 @@ attributes:
             - git-extras
             - wget
             - pwgen
-            - xmlstarlet
             - htop-osx
             - git-flow
-            - siege
             - watch
             - rsync
         cask_apps:
             - dash
-            - imageoptim
-            - imagealpha
             - sourcetree
             - iterm2
             - atom
             - istat-menus
-            - bartender
-            - hazel
-            - sonos
-            - caffeine
-            - tower
-            - handbrake
-            - slack
-            - flashlight
             - couleurs
             - vagrant-manager
             - vagrant
@@ -104,11 +92,6 @@ attributes:
         - kstrano
         - deliver
         - crafter
-    atom_packages:
-      - name: language-gradle
-      - name: language-groovy
-      - name: language-haml
-      - name: uuidgen
     sublime_text_packages:
         -
             name: SideBarEnhancements
