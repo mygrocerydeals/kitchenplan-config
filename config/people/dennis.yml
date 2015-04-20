@@ -24,8 +24,8 @@ attributes:
                 - nerdtree: https://github.com/scrooloose/nerdtree.git
                 - vim-css-color: https://github.com/ap/vim-css-color
     git:
-        name: Dennis O'Conner
-        email: doconner@mygrocerydeals.com
+        name: Dennis O'Connor
+        email: doconnor@mygrocerydeals.com
     osxdefaults:
         computername: dennis-mbp
     authorization:
