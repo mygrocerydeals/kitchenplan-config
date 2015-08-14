@@ -1,0 +1,51 @@
+groups:
+    - bash
+    - zsh
+    - developer
+    - java
+    - chef
+recipes:
+    mac_os_x:
+        - applications::launchrocket
+        - sudoalt::default
+        - osxdefaults::set_computer_name
+attributes:
+    dotfiles:
+        vimusers:
+            - root
+            - darylrobbins
+        vim:
+            bundle:
+                - sleuth: git://github.com/tpope/vim-sleuth.git
+                - sensible: git://github.com/tpope/vim-sensible.git
+                - gitgutter: git://github.com/airblade/vim-gitgutter.git
+                - airline: https://github.com/bling/vim-airline
+                - syntastic: git://github.com/scrooloose/syntastic.git
+                - nerdtree: https://github.com/scrooloose/nerdtree.git
+                - vim-css-color: https://github.com/ap/vim-css-color
+    git:
+        name: Daryl Robbins
+        email: drobbins@mygrocerydeals.com
+    osxdefaults:
+        computername: daryl-vm
+    authorization:
+        sudo:
+            users:
+                - darylrobbins
+            passwordless: false
+            include_sudoers_d: true
+    homebrewalt:
+        cask_apps:
+            - omnifocus
+            - omnioutliner
+            - kaleidoscope
+            - acorn
+    rvm:
+      installs:
+        darylrobbins:
+          default_ruby: ruby-2.2.0
+          rubies:
+            - ruby-2.2.0
+    oh_my_zsh:
+      users:
+        - login: darylrobbins
