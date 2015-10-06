@@ -1,5 +1,5 @@
 attributes:
     homebrewalt:
         cask_apps:
-            - java7
+            - java8
             - intellij-idea

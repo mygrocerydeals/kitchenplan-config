@@ -39,5 +39,7 @@ attributes:
             - alfred
             - parallels-desktop
             - skype
+            - slack
+            
     osxdefaults:
       loginmessage: Property of MyGroceryDeals. If found, please call +1 (613) 224-2525.
